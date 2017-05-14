@@ -1,0 +1,15 @@
+﻿Build started 2017/3/25 下午 08:26:16.
+     1>Project "D:\user\wingo\teaching\201702\AssemblyLanguages\quiz_programming\quiz_201702_template_NET2013\quiz_one\q1\Project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Project.unsuccessfulbuild".
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\User\AppData\Local\Temp\tmp9e768b8b37744832837752539a927816.cmd"
+         ml.exe /c /nologo /Zi /Fo"Release\main.obj" /I "./Irvine" /W3 /errorReport:prompt  /Tamain.asm
+     1>main.asm(19): error A2088: END directive required at end of file
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\masm.targets(49,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Release\main.obj" /I "./Irvine" /W3 /errorReport:prompt  /Tamain.asm" exited with code 1.
+     1>Done Building Project "D:\user\wingo\teaching\201702\AssemblyLanguages\quiz_programming\quiz_201702_template_NET2013\quiz_one\q1\Project.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18

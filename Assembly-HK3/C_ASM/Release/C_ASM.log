@@ -1,0 +1,12 @@
+﻿  Assembling asm.asm...
+asm.asm(655): warning A6004: procedure argument or local not referenced : x
+asm.asm(669): warning A6004: procedure argument or local not referenced : y
+asm.asm(708): warning A6004: procedure argument or local not referenced : imageIndex
+asm.asm(757): warning A6004: procedure argument or local not referenced : imageIndex
+  正在生成代码
+  0 of 128 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  C_ASM.vcxproj -> E:\周云鹏的三哥\学习\汇编语言\test\0540137_YANGLINBIN_asm_hw03_201702_OpenGL_template\Release\C_ASM.exe
+  C_ASM.vcxproj -> E:\周云鹏的三哥\学习\汇编语言\test\0540137_YANGLINBIN_asm_hw03_201702_OpenGL_template\Release\C_ASM.pdb (Full PDB)

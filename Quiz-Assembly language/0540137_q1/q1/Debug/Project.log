@@ -1,0 +1,16 @@
+﻿Build started 2015/11/2 上午 10:45:00.
+     1>Project "D:\Users\cswingo\Desktop\quiz_201509_assembly_programming_NET2010\quiz_201509_programs\q1\Project.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling main.asm...
+         cmd.exe /C "D:\Users\cswingo\AppData\Local\Temp\tmp557d9382094e46e4b917ea2f6996b003.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\main.obj" /Fl"Project.lst" /I ".\Irvine" /W3 /errorReport:prompt  /Tamain.asm
+     1>main.asm(16): error A2034: must be in segment block : main
+     1>main.asm(18): error A2034: must be in segment block
+     1>main.asm(19): error A2034: must be in segment block
+     1>main.asm(21): fatal error A1010: unmatched block nesting : main
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\masm.targets(50,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\main.obj" /Fl"Project.lst" /I ".\Irvine" /W3 /errorReport:prompt  /Tamain.asm" exited with code 1.
+     1>Done Building Project "D:\Users\cswingo\Desktop\quiz_201509_assembly_programming_NET2010\quiz_201509_programs\q1\Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.21
