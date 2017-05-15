@@ -334,11 +334,11 @@ L2:
 	fdiv WidthOfPic
 	fsub Substrac
 	fistp Destination_X
-	; mWriteln "***************Destination_X****************"
-	; mov eax, Destination_X
-	; call WriteInt
-	; call Crlf
-	; mwriteln "*******************************"
+	mWriteln "***************Destination_X****************"
+	mov eax, Destination_X
+	call WriteInt
+	call Crlf
+	mwriteln "*******************************"
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	mov eax, y
 	mWrite "y:"
@@ -352,11 +352,11 @@ L2:
 	fld Substrac
 	fsub D_Y
 	fistp Destination_Y
-	; mWriteln "***************Destination_Y****************"
-	; mov eax, Destination_Y
-	; call WriteDec
-	; call Crlf
-	; mwriteln "*******************************"
+	mWriteln "***************Destination_Y****************"
+	mov eax, Destination_Y
+	call WriteDec
+	call Crlf
+	mwriteln "*******************************"
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	mWriteln " "
 	mov eax, windowWidth
@@ -1058,6 +1058,7 @@ L3:
 	mwrite "  PositionY:"
 	mov eax, [edi]
 	call WriteDec
+	call Crlf
 	add edi,4	
 	add haha,1
 loop L1
@@ -1065,6 +1066,7 @@ ret
 loadData ENDP
 
 PrintColor PROC
+	call Crlf
 	push esi
 	mov esi, OFFSET objColor
 	mov ebx, haha
@@ -1085,6 +1087,7 @@ ret
 PrintColor ENDP
 
 PrintColor1 PROC
+	call Crlf
 	push esi
 	mov esi, OFFSET RainBowColor
 	cdq
